@@ -10,7 +10,7 @@ import Foundation
 func ReverseLinkedList(head: ListNode?) -> ListNode? {
     var previous: ListNode? = nil
     var current = head
-    // previous starts as empty 
+    // previous starts as empty
     while current != nil {
         let next = current?.next
         current?.next = previous

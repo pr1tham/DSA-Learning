@@ -7,6 +7,7 @@
 
 import Foundation
 
-print(runInsertionSort())
-print(runBubbleSort())
+let root = TreeNode(10, TreeNode(5), TreeNode(15))
+let result = PostOrderTraversalIterative(root)
+print(result)
  
